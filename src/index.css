@@ -1,12 +1,13 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
 }
-.repo-container{
+.repo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: brown;
 }
