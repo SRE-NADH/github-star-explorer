@@ -74,6 +74,8 @@ function App() {
                 width: "80%",
                 display: "flex",
                 justifyContent: "center",
+                alignItems: "center",
+                flexDirection: "column",
               }}
             >
               <Repo data={item} />
