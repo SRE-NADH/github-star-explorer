@@ -70,13 +70,7 @@ function App() {
           filterArry.map((item, index) => (
             <div
               key={index}
-              style={{
-                width: "80%",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column",
-              }}
+               className="repo-item"
             >
               <Repo data={item} />
             </div>

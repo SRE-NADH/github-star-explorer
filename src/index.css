@@ -10,3 +10,16 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.repo-item {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 700px) {
+  .repo-item {
+    width: 90%;
+  }
+}
